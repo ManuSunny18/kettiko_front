@@ -1,0 +1,41 @@
+.txtCenter{
+    text-align: center;
+}
+.primaryBtn{
+        background: #EA3D3E;
+    padding: .5em 1.2em;
+    color: #FFFFFF;
+    border: solid 1px #cc2223;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.16);
+}
+.hrLine{
+    margin: 50px auto;
+    background: #CCCCCC;
+    height: 1px;
+    width:90%;
+}
+.row{
+    display: table;
+    width:100%;
+    >*{
+        display:table-cell;
+    }
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.rowW{
+    width:100%;
+    clear:both;
+    display: table;
+    >div{
+        float:left;
+    }
+}
+.col3{
+    >div{
+        width:33.3%;
+    }
+}
